@@ -1,0 +1,59 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 226, 97)!important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+h3 {
+    display: block;
+    font-size: 2em;
+}
+
+.container {
+    box-sizing: border-box;
+    float: right;
+    font-family: sans-serif;
+    background: rgb(213, 213, 216);
+    padding: 10px;
+    width: 100%;
+}
+
+
+/*.ui-body-c {
+    background-image: url("/images/data1.png")!important;
+    background-size: cover;
+
+
+}*/
+
+body {
+    background-image: url("../images/data1.png");
+    background-size: cover;
+}
+
+.ui-input-text {
+    color: black;
+}

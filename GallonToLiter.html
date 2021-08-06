@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <html>
+
+    <head>
+        <title>Units</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css" />
+        <link rel="stylesheet" href="css/layout.css" />
+        <!-- JS -->
+        <script src="scripts/jquery-1.8.3.min.js"></script>
+        <!-- <script src="scripts/jquery.mobile-1.3.1.min.js"></script> -->
+
+        <script src="scripts/main2.js"></script>
+    </head>
+
+    <body>
+        <nav class="unit_conversion">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="FahrenheitToCelsius.html">Fahrenheit To Celsius</a></li>
+                <li><a href="GallonToLiter.html">Gallon To Liter</a></li>
+                <li><a href="MphToKph.html">Mph to Kph</a></li>
+                <li><a href="FeetToCentimeter.html">Centimeter to Meter</a></li>
+
+            </ul>
+        </nav>
+        <div class="container">
+
+            <h3>Unit Conversion</h3>
+
+            <p>Type a value in the Gallon field to convert the value to Liter:</p>
+
+
+            <label>Gallon</label>
+            <input id="inputGallon" type="number" placeholder="Gallon" oninput="volumeConverter(this.value)" onchange="volumeConverter(this.value)">
+            </p>
+            <p>Liter: <span id="outputLiter"></span></p>
+
+            <p>
+                <label>Liter</label>
+                <input id="inputLiter" type="number" placeholder="Liter" oninput="volumeConverterGallon(this.value)" onchange="volumeConverterGallon(this.value)">
+            </p>
+            <p>Gallon: <span id="outputGallon"></span></p>
+
+
+            <h3>Gallon (US)
+            </h3>
+            <p><b>Definition:</b> A gallon is a unit of volume specifically regarding liquid capacity in both the US customary and imperial systems of measurement. The US gallon is defined as 231 cubic inches (3.785 liters). In contrast, the imperial gallon,
+                which is used in the United Kingdom, Canada, and some Caribbean nations, is defined as 4.54609 liters. In both systems, the gallon is divided into four quarts. Quarts are then divided into two pints and pints are divided into two cups.
+                A cup is comprised of two gills, making one gallon equal four quarts, eight pints, sixteen cups, or thirty-two gills. Further differentiating the US and the imperial gallon, a US gill is divided into four fluid ounces, while an imperial
+                gallon is divided into five. A US fluid ounce is therefore 1/128 of a US gallon while an imperial fluid ounce is 1/160 of an imperial gallon.</p>
+
+            <p><b>Current use:</b> In the United States (US), gallons are often used for larger containers, such as half gallon tubs of ice cream or one-gallon cartons of milk. Gallons are also widely used in fuel economy expression in the US, as well as
+                some of its territories. The imperial gallon is used even more sparingly than the US gallon, with most countries around the world using liters when referencing fuel.</p>
+
+            <h3>Liter</h3>
+            <p><b>Definition:</b> A liter (symbol: L) is a unit of volume that is accepted for use with the International System of Units (SI) but is technically not an SI unit. One liter is equal to 1 cubic decimeter (dm3), 1,000 cubic centimeters (cm3),
+                or 1/1,000 cubic meters (m3). .</p>
+
+            <p><b>Current use:</b> The liter is used to measure many liquid volumes as well as to label containers containing said liquids. It is also used to measure certain non-liquid volumes such as the size of car trunks, backpacks and climbing packs,
+                computer cases, microwaves, refrigerators, and recycling bins, as well as for expressing fuel volumes and prices in most countries around the world</p>
+
+
+
+        </div>
+
+    </body>
+
+
+    </html>

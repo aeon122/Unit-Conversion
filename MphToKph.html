@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <html>
+
+    <head>
+        <title>Units</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css" />
+        <link rel="stylesheet" href="css/layout.css" />
+        <!-- JS -->
+        <script src="scripts/jquery-1.8.3.min.js"></script>
+        <!-- <script src="scripts/jquery.mobile-1.3.1.min.js"></script> -->
+
+        <script src="scripts/main3.js"></script>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="FahrenheitToCelsius.html">Fahrenheit To Celsius</a></li>
+                <li><a href="GallonToLiter.html">Gallon To Liter</a></li>
+                <li><a href="MphToKph.html">Mph to Kph</a></li>
+                <li><a href="FeetToCentimeter.html">Centimeter to Meter</a></li>
+
+            </ul>
+        </nav>
+        <div class="container">
+
+            <h3>Unit Conversion</h3>
+
+            <p>Type a value in the Mile/hour field to convert the value to Kilometer/hour:</p>
+
+            <p>
+                <label>Mile/hour</label>
+                <input id="inputMile/hour" type="number" placeholder="Mile/hour" oninput="speedConverter(this.value)" onchange="speedConverter(this.value)">
+            </p>
+            <p>Kilometer/hour: <span id="outputKilometer/hour"></span></p>
+
+            <p>
+                <label>Kilometer/hour</label>
+                <input id="inputKilometer/hour" type="number" placeholder="Kilometer/hour" oninput="speedConverterMile(this.value)" onchange="volumeConverterMile(this.value)">
+            </p>
+            <p>Mile/hour: <span id="outputMile/hour"></span></p>
+
+
+            <h3>Mile/hour</h3>
+            <p><b>Definition:</b> The unit miles per hour (symbol: mph) is a measurement of speed in the imperial and United States customary systems. It expresses the number of statute miles traveled over the period of one hour. One mph equals exactly 1.609344
+                kilometers per hour (km/h). Along with km/h, mph is most typically used in relation to road traffic speeds. It is most widely used in the United States, the United Kingdom, and their related territories. It is also used in the Canadian
+                rail system, though the Canadian road systems use km/h.</p>
+
+            <p><b>Current use:</b> Along with km/h, mph is most typically used in relation to road traffic speeds. It is most widely used in the United States, the United Kingdom, and their related territories. It is also used in the Canadian rail system,
+                though the Canadian road systems use km/h.</p>
+
+            <h3>Kilometer/hour</h3>
+            <p><b>Definition:</b> The unit kilometers per hour (symbol: km/h) is a unit of speed expressing the number of kilometers traveled in one hour. Km/h is currently the most commonly used unit of speed around the world and is typically used for car
+                speeds and road signs. It is also common for both miles per hour as well as kilometers per hour to be displayed on car speedometers. There are many abbreviations for the unit kilometers per hour (kph, kmph, k.p.h, KMph., etc.), but "km/h"
+                is the SI unit symbol.</p>
+
+            <p><b>Current use:</b> Km/h is currently the most commonly used unit of speed around the world and is typically used for car speeds and road signs. It is also common for both miles per hour as well as kilometers per hour to be displayed on car
+                speedometers. There are many abbreviations for the unit kilometers per hour (kph, kmph, k.p.h, KMph., etc.), but "km/h" is the SI unit symbol.</p>
+
+        </div>
+
+
+    </body>
+
+    </html>
